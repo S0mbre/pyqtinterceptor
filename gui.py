@@ -1,13 +1,10 @@
 # -*- coding: utf-8 -*-
 ## @package proxen.gui
 # @brief The GUI app main window implementation -- see MainWindow class.
-import os
-# from qtimports import *
 import utils
-
-from PySide6 import QtCore, QtGui, QtWidgets, QtWebEngineCore, QtNetwork, QtWebEngineWidgets
+from PySide6 import QtCore, QtWidgets, QtWebEngineCore, QtNetwork, QtWebEngineWidgets
 from PySide6.QtCore import Signal, Slot
-from PySide6.QtGui import QAction
+# from PySide6.QtGui import QAction
 
 # ******************************************************************************** #
 # GLOBALS

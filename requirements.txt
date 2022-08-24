@@ -1,1 +1,2 @@
-PySide6 			# or PySide2 or PyQt5
+PySide6
+pyinstaller>=5.3

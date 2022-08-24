@@ -6,10 +6,25 @@ cd pyqtinterceptor
 pip install -r requirements.txt
 ```
 
-## Запуск
+### Сборка EXE для Windows
 
 ```
+cd pyqtinterceptor
+call buildexe.bat
+```
+
+После сборки программа `interceptor.exe` появится в директории `/dist/interceptor` вместе с необходимыми библиотеками.
+
+## Запуск
+
+### Из Python
+```
 python main.py
+```
+
+### Запуск EXE
+```
+./dist/interceptor/interceptor.exe
 ```
 
 ## Обновление

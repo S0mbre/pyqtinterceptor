@@ -1,4 +1,4 @@
-from qtimports import QtCore, Signal, Slot
+from PySide6 import QtCore
 import traceback
 
 # ******************************************************************************** #
@@ -10,7 +10,7 @@ import traceback
 class QThreadStump(QtCore.QThread):
 
     ## Error signal (args are: instance of this thread and the error message)
-    sig_error = Signal(QtCore.QThread, str)
+    sig_error = QtCore.Signal(QtCore.QThread, str)
 
     ## @param priority `int` thread default priority (default = normal)
     # @param on_start `callable` callback function called before the main

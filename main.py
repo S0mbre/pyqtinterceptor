@@ -1,20 +1,15 @@
 # -*- coding: utf-8 -*-
 ## @package proxen.proxen
 # @brief Main application entry-point module that creates and launches the GUI app -- see main() function.
-import os, sys, traceback
-from qtimports import QtCore, QtWidgets
+import sys, traceback
+from gui import QtCore, QtWidgets, MainWindow
 
 # ======================================================================================= #
 URL = 'https://open.spotify.com/track/4BrYTZfpZzeNAGbJ7kh2Z0?si=2250d6630b424bb7'
 
 ## Main function that creates and launches the application.
-def main():
-
-    from gui import MainWindow
-    
+def main():    
     try:        
-        # change working dir to current
-        os.chdir(os.path.dirname(os.path.abspath(__file__)))
         # initialize Qt Core App settings
         QtCore.QCoreApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling)
         # disable Qt debug messages
