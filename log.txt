@@ -1,0 +1,17 @@
+[2022-08-24 11:38:05] + WebInterceptor CREATED
+[2022-08-24 11:38:05] + WebPage CREATED
+[2022-08-24 11:38:07] COOKIE ADDED :: b'sp_t' b'88542e62e94be80479e4eb7bbebc95d5' .spotify.com ; requested_url: PySide6.QtCore.QUrl('https://open.spotify.com/track/4BrYTZfpZzeNAGbJ7kh2Z0?si=2250d6630b424bb7')
+[2022-08-24 11:38:07] INTERCEPTED [SCRIPT] :: https://open.spotifycdn.com/cdn/js/urlScheme.f1e6e8b6.js
+[2022-08-24 11:38:07] COOKIE ADDED :: b'sp_t' b'88542e62e94be80479e4eb7bbebc95d5' .spotify.com ; requested_url: PySide6.QtCore.QUrl('https://open.spotify.com/track/4BrYTZfpZzeNAGbJ7kh2Z0?si=2250d6630b424bb7')
+[2022-08-24 11:38:08] INTERCEPTED [SCRIPT] :: https://www-growth.scdn.co/_next/static/chunks/webpack-b527ac4852441e5a2010.js
+[2022-08-24 11:38:08] INTERCEPTED [SCRIPT] :: https://www-growth.scdn.co/_next/static/chunks/framework-895f067827ebe11ffe45.js
+[2022-08-24 11:38:08] INTERCEPTED [SCRIPT] :: https://www-growth.scdn.co/_next/static/chunks/main-97f83a3346c90df97755.js
+[2022-08-24 11:38:08] INTERCEPTED [SCRIPT] :: https://www-growth.scdn.co/_next/static/chunks/pages/_app-418643a841e3fefed727.js
+[2022-08-24 11:38:08] INTERCEPTED [SCRIPT] :: https://www-growth.scdn.co/_next/static/chunks/894-70b3fcc8e0b046424e93.js
+[2022-08-24 11:38:08] INTERCEPTED [SCRIPT] :: https://www-growth.scdn.co/_next/static/chunks/pages/%5Blocale%5D/why-not-available-130d299aef1948a42859.js
+[2022-08-24 11:38:08] INTERCEPTED [SCRIPT] :: https://www-growth.scdn.co/_next/static/GrC5zfH0Y2X7JsuGK_kEt/_buildManifest.js
+[2022-08-24 11:38:08] INTERCEPTED [SCRIPT] :: https://www-growth.scdn.co/_next/static/GrC5zfH0Y2X7JsuGK_kEt/_ssgManifest.js
+[2022-08-24 11:38:08] INTERCEPTED [SCRIPT] :: https://www.googletagmanager.com/gtm.js?id=GTM-7BJJ
+[2022-08-24 11:38:08] INTERCEPTED [SCRIPT] :: https://pixel-static.spotify.com/sync.min.js
+[2022-08-24 11:38:08] COOKIE ADDED :: b'sss' b'1' www.spotify.com ; requested_url: PySide6.QtCore.QUrl('https://www.spotify.com/int/why-not-available/')
+[2022-08-24 11:38:09] COOKIE ADDED :: b'sp_adid' b'00c9f912-e997-4b10-a6ff-a4fa40d70837' .spotify.com ; requested_url: PySide6.QtCore.QUrl('https://www.spotify.com/int/why-not-available/')
