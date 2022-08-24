@@ -19,7 +19,7 @@ def main():
         # create main window
         mw = MainWindow(QtCore.QUrl.fromUserInput(sys.argv[1]) if len(sys.argv) > 1 else QtCore.QUrl(URL))
         # show window
-        mw.resize(1800, 968)
+        mw.resize(1600, 800)
         mw.show()
         # run app's event loop
         sys.exit(app.exec())

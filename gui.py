@@ -74,7 +74,8 @@ class WebPage(QtWebEngineCore.QWebEnginePage):
 
     @Slot(QtNetwork.QNetworkCookie)
     def on_cookieAdded(self, cookie: QtNetwork.QNetworkCookie):
-        utils.log(f'COOKIE ADDED :: {cookie.name()} {cookie.value()} {cookie.domain()} ; requested_url: {self.requestedUrl()}', 'debug')
+        data = {'name': cookie.name().toStdString(), 'value': cookie.value().toStdString(), 'domain': cookie.domain(), 'requested_url': self.requestedUrl().url()}
+        utils.log(f'COOKIE ADDED :: {data}', 'debug')
 
 # ******************************************************************************** #
 # *****          MainWindow
